@@ -7,8 +7,9 @@ void farewell(){
 }
   public static void main(String args[]) {
     Methods obj=new Methods();
+     Methods.greet();
     obj.farewell();
-    Methods.greet();
+   
 
   }
 }
