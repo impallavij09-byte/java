@@ -1,14 +1,12 @@
 class Static{
-   static String  div = 'ITS';
+   static String  clg = "ITS";
    String name ;
    
-   Static(String d,String s){
-    div=d;
-
+   Static(String s){
     name=s;
    }
 
-    void display ()System.out.println(div+" "+name);
+void display (){System.out.println(clg +" "+name);}
 
 }
    
@@ -16,8 +14,9 @@ class Static{
    public static void  main (String []args){
     Static s1 = new Static ("Pallavi");
      Static s2 = new Static ("Snehal");
+
      s1.display();    
  s2.display();    
    }
 }
-}
+
