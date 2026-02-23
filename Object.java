@@ -22,11 +22,11 @@ class Student{
 
 public class Object {
     public static void main(String args[]){
-        Student s1 =new Student();
+        Thsi s1 =new Thsi();
         s1.id=101;
         s1.name="Jhon";
         s1.marks=65.8f;
-        Student s2=new Student();
+        Thsi s2=new Thsi();
         s2.insert(102,"Nick",89.4f);
         s1.show();
         s2.show();
